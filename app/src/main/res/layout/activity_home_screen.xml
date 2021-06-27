@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+   android:background="#CECDDA"
+    tools:context=".HomeScreen">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpl2"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tv" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/et"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EditText"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_dsgn"
+                android:layout_gravity="center"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ib"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ImageButton"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">ntent
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timepicker"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TimePicker"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/datepicker"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DatePicker"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_marginTop="13dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/togglebutton"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkbox"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CheckBox"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radiobutton"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_dsgn"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:text="RadioButtom"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toast"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toast"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toasty"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toasty"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/spinner"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:background="@drawable/btn_dsgn"
+                android:text="Spinner"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ratingbar"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RatingBar"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seekbar"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fourteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:background="@drawable/btn_dsgn"
+                android:text="Seekbar"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WebView"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:layout_marginTop="13dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/youtube"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="youtube"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alertdialog"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seventeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert/dialog"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/listview"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eighteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="listView"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/arrow_frwrd"
+
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+
+                android:src="@drawable/menubar"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nineteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Menubars"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

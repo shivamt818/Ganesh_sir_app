@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ganesh_sir_app</string>
+    <string-array name="cities">
+        <item>ahmedabad</item>
+        <item>mathura</item>
+        <item>bhopal</item>
+        <item>allahabad</item>
+        <item>Mumbai</item>
+
+    </string-array>
+</resources>

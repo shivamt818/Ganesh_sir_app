@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Radiobutton">
+
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java"/>
+        <RadioButton
+            android:id="@+id/python"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="python"/>
+        <RadioButton
+            android:id="@+id/angular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="angular"/>
+        <RadioButton
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rbbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </RadioGroup>
+
+</LinearLayout>
