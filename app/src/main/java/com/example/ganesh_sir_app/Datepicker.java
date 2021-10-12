@@ -23,7 +23,7 @@ public class Datepicker extends AppCompatActivity {
         dpbtn2=findViewById(R.id.ybtn2);
 
         dpbtn1.setOnClickListener(v->{
-            Toast.makeText(this,x.getDayOfMonth()+"-"+x.getMonth()+1+"-"+x.getYear()+1, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,x.getDayOfMonth()+"-"+(x.getMonth()+1)+"-"+x.getYear(), Toast.LENGTH_SHORT).show();
         });
 
         dpbtn2.setOnClickListener(v->{

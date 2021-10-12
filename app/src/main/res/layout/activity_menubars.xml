@@ -5,7 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     tools:context=".menubars">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="OptionMenuBar"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ContextMenuBar(press-Long)"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="PopUpMenuBar"/>
 
 </LinearLayout>

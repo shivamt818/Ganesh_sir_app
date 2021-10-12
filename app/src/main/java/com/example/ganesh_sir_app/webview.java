@@ -16,7 +16,7 @@ public class webview extends AppCompatActivity {
 
         wb = findViewById(R.id.wb);
 
-       wb.loadUrl("https://courses.smartprogramming.in/learn");
+       wb.loadUrl("https://www.youtube.com/watch?v=TlBcHCd2Jeg");
 
     }
 }
