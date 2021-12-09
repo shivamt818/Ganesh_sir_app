@@ -467,7 +467,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="13dp"
-
                 android:src="@drawable/menubar"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/nineteen"
@@ -475,6 +474,27 @@
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
                 android:text="Menubars"
+                android:drawableRight="@drawable/arrow_frwrd"
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_dsgn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/menubar"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Bottomnavigation"
                 android:drawableRight="@drawable/arrow_frwrd"
                 android:layout_marginLeft="7dp"
                 android:layout_gravity="center"

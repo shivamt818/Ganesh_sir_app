@@ -25,10 +25,13 @@ public class BottomNavigation extends AppCompatActivity {
                 {
                     case R.id.item1:
                         Toast.makeText(getApplicationContext(),""+item.getTitle(), Toast.LENGTH_SHORT).show();
+                        break;
                     case R.id.item2:
                         Toast.makeText(getApplicationContext(),""+item.getTitle(), Toast.LENGTH_SHORT).show();
+                        break;
                     case R.id.item3:
                         Toast.makeText(getApplicationContext(),""+item.getTitle(), Toast.LENGTH_SHORT).show();
+                        break;
                     case R.id.item4:
                         Toast.makeText(getApplicationContext(),""+item.getTitle(), Toast.LENGTH_SHORT).show();
                 }
