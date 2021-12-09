@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_checkbox.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_edittext.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_main.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_radiobutton.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_textview.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/layout/activity_togglebutton.xml" value="0.12894736842105264" />
-        <entry key="..\:/Users/vinsu/AndroidStudioProjects/Ganesh_sir_app/app/src/main/res/menu/bottom_navigation_icon.xml" value="0.33" />
-      </map>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
