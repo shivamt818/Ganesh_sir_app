@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-//Spashscreen
+//Splashscreen
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },5000);
+        },2000);
     }
 }

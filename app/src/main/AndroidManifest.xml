@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ganesh_sir_app">
-        <activity android:name=".menubars"></activity>
+        <activity
+            android:name=".BottomNavigation"
+            android:exported="false" />
+        <activity android:name=".menubars" />
         <activity android:name=".listview" />
         <activity android:name=".alertdialog" />
         <activity android:name=".youtube" />

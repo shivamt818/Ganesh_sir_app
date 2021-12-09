@@ -11,7 +11,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 public class spinner extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    AppCompatSpinner spinne;
+    AppCompatSpinner spinner;
     String [] data_test={"ahmedabad","mathura","bhopal","allahabad","Mumbai"};
 
     @Override
@@ -19,10 +19,10 @@ public class spinner extends AppCompatActivity implements AdapterView.OnItemSele
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner);
 
-        spinne = findViewById(R.id.spinner);
-        spinne.setOnItemSelectedListener(this);
+        spinner = findViewById(R.id.spinner);
+        spinner.setOnItemSelectedListener(this);
         ArrayAdapter abc=new ArrayAdapter(this, android.R.layout.simple_spinner_item,data_test);
-        spinne.setAdapter(abc);
+        spinner.setAdapter(abc);
 
     }
     @Override

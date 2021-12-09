@@ -38,6 +38,7 @@ public class Checkbox extends AppCompatActivity {
                 result+="-C";
             }
             Toast.makeText(this,result, Toast.LENGTH_SHORT).show();
+            result="";
         });
 
 

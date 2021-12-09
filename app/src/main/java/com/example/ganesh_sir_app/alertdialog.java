@@ -22,9 +22,9 @@ public class alertdialog extends AppCompatActivity {
         adbtn.setOnClickListener(v ->{
 
             final AlertDialog.Builder alertdialog=new AlertDialog.Builder(alertdialog.this);
-            alertdialog.setTitle("Do You Want Delete");
-            alertdialog.setCancelable(false).setMessage("click yes To Delete")
-                                          .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                       alertdialog.setTitle("Do You Want Delete");
+                       alertdialog.setCancelable(false).setMessage("click yes To Delete")
+                      .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                               @Override
                                               public void onClick(DialogInterface dialog, int which) {
                                                   Toast.makeText(alertdialog.this, "Record Deleted", Toast.LENGTH_SHORT).show();

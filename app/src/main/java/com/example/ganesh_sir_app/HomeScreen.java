@@ -11,7 +11,8 @@ import android.widget.Toast;
 
 public class HomeScreen extends AppCompatActivity {
 
-   AppCompatButton one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,nineteen;
+   AppCompatButton one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,
+                   fourteen,fifteen,sixteen,seventeen,eighteen,nineteen, twenty;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,8 @@ public class HomeScreen extends AppCompatActivity {
         seventeen=findViewById(R.id.seventeen);
         eighteen=findViewById(R.id.eighteen);
         nineteen=findViewById(R.id.nineteen);
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        twenty=findViewById(R.id.twenty);
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //TextView
         one.setOnClickListener(v->{
             Intent intent1=new Intent(HomeScreen.this,Textview.class);
@@ -156,6 +158,11 @@ public class HomeScreen extends AppCompatActivity {
             Intent intent19=new Intent(HomeScreen.this,menubars.class);
             startActivity(intent19);
         });
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Bottom Navigation
+        twenty.setOnClickListener(v->{
+            Intent intent20=new Intent(this,BottomNavigation.class);
+            startActivity(intent20);
+        });
     }
 }
